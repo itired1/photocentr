@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProImage - Фотоцентр профессиональной печати</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Pro<span>Image</span></a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#pricing">Цены</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="#booking" class="btn">Записаться онлайн</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Профессиональная фотосъемка и печать</h1>
+                <p>Качественные услуги фотопечати, оформления и ретуши для ваших самых важных моментов</p>
+                <div class="hero-btns">
+                    <a href="#services" class="btn btn-primary">Наши услуги</a>
+                    <a href="#booking" class="btn btn-secondary">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section services">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <p class="section-subtitle">Мы предлагаем полный спектр услуг для ваших фотографий</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <h3>Фотосъемка</h3>
+                    <p>Профессиональная студийная и выездная фотосъемка: портреты, мероприятия, предметная съемка.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Фотопечать</h3>
+                    <p>Печать фотографий любого формата на качественной бумаге с точной цветопередачей.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Фотоальбомы</h3>
+                    <p>Создание индивидуальных фотокниг и альбомов для свадеб, путешествий и памятных событий.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Фотоподарки</h3>
+                    <p>Печать на кружках, футболках, холстах и других предметах с вашими фотографиями.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Ретушь</h3>
+                    <p>Профессиональная обработка и ретушь фотографий для идеального результата.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Оцифровка</h3>
+                    <p>Оцифровка пленок, слайдов и старых фотографий с восстановлением качества.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title">Наши работы</h2>
+            <p class="section-subtitle">Примеры фотографий, напечатанных в нашем центре</p>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="portrait">Портреты</button>
+                <button class="filter-btn" data-filter="wedding">Свадьбы</button>
+                <button class="filter-btn" data-filter="nature">Природа</button>
+                <button class="filter-btn" data-filter="objects">Предметы</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="portrait">
+                    <img src="images/portfolio1.jpg" alt="Портрет">
+                    <div class="portfolio-overlay">
+                        <h3>Портретная съемка</h3>
+                        <a href="#" class="portfolio-view"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="wedding">
+                    <img src="images/portfolio2.jpg" alt="Свадьба">
+                    <div class="portfolio-overlay">
+                        <h3>Свадебная фотосессия</h3>
+                        <a href="#" class="portfolio-view"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="nature">
+                    <img src="images/portfolio3.jpg" alt="Природа">
+                    <div class="portfolio-overlay">
+                        <h3>Пейзажная фотография</h3>
+                        <a href="#" class="portfolio-view"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="objects">
+                    <img src="images/portfolio4.jpg" alt="Предметная съемка">
+                    <div class="portfolio-overlay">
+                        <h3>Предметная съемка</h3>
+                        <a href="#" class="portfolio-view"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="portrait">
+                    <img src="images/portfolio5.jpg" alt="Портрет">
+                    <div class="portfolio-overlay">
+                        <h3>Семейный портрет</h3>
+                        <a href="#" class="portfolio-view"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="wedding">
+                    <img src="images/portfolio6.jpg" alt="Свадьба">
+                    <div class="portfolio-overlay">
+                        <h3>Свадебный альбом</h3>
+                        <a href="#" class="portfolio-view"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section pricing">
+        <div class="container">
+            <h2 class="section-title">Наши цены</h2>
+            <p class="section-subtitle">Доступные цены на основные услуги</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Фотопечать</h3>
+                    <div class="price"><span>от</span> 50 ₽</div>
+                    <ul>
+                        <li>10×15 см - 50 ₽</li>
+                        <li>15×20 см - 100 ₽</li>
+                        <li>20×30 см - 200 ₽</li>
+                        <li>30×40 см - 400 ₽</li>
+                        <li>40×60 см - 800 ₽</li>
+                    </ul>
+                    <a href="#booking" class="btn">Заказать</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="featured-badge">Популярно</div>
+                    <h3>Фотоальбомы</h3>
+                    <div class="price"><span>от</span> 2500 ₽</div>
+                    <ul>
+                        <li>20 страниц - 2500 ₽</li>
+                        <li>30 страниц - 3500 ₽</li>
+                        <li>40 страниц - 4500 ₽</li>
+                        <li>Твердая обложка +500 ₽</li>
+                        <li>Дизайн макета +1500 ₽</li>
+                    </ul>
+                    <a href="#booking" class="btn">Заказать</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Фотоподарки</h3>
+                    <div class="price"><span>от</span> 600 ₽</div>
+                    <ul>
+                        <li>Кружка - 600 ₽</li>
+                        <li>Футболка - 1200 ₽</li>
+                        <li>Подушка - 1500 ₽</li>
+                        <li>Холст 30×40 - 2500 ₽</li>
+                        <li>Пазл - 800 ₽</li>
+                    </ul>
+                    <a href="#booking" class="btn">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">О нашем фотоцентре</h2>
+                <p>ProImage - это современный фотоцентр, предлагающий полный спектр услуг в области фотографии. Мы работаем с 2010 года и за это время заслужили репутацию надежного партнера для тысяч клиентов.</p>
+                <p>Наша команда состоит из профессиональных фотографов, дизайнеров и ретушеров, которые помогут вам сохранить самые важные моменты вашей жизни в идеальном качестве.</p>
+                <p>Мы используем только профессиональное оборудование и материалы, чтобы гарантировать долговечность и высокое качество наших продуктов.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">12+</div>
+                        <div class="stat-text">Лет опыта</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5000+</div>
+                        <div class="stat-text">Довольных клиентов</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-text">Гарантия качества</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/about.jpg" alt="О нашем фотоцентре">
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="section booking">
+        <div class="container">
+            <h2 class="section-title">Онлайн запись</h2>
+            <p class="section-subtitle">Заполните форму, и мы свяжемся с вами для уточнения деталей</p>
+            
+            <form class="booking-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Телефон" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="" disabled selected>Выберите услугу</option>
+                        <option value="print">Фотопечать</option>
+                        <option value="album">Фотоальбом</option>
+                        <option value="photo">Фотосъемка</option>
+                        <option value="gift">Фотоподарки</option>
+                        <option value="retouch">Ретушь</option>
+                        <option value="other">Другое</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Дополнительная информация"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="file" id="file-upload">
+                    <label for="file-upload" class="file-upload-label">
+                        <i class="fas fa-cloud-upload-alt"></i> Загрузите файлы (если требуется)
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contacts" class="section contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            
+            <div class="contacts-content">
+                <div class="contacts-info">
+                    <h3>Как нас найти</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>г. Москва, ул. Фотографическая, д. 15</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+7 (495) 123-45-67</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@proimage.ru</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Пн-Пт: 9:00 - 20:00<br>Сб-Вс: 10:00 - 18:00</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                    </div>
+                </div>
+                <div class="contacts-map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a2b3c4d5e6f7g8h9i0j&amp;source=constructor" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>ProImage</h3>
+                    <p>Профессиональный фотоцентр, предлагающий полный спектр услуг фотопечати, фотосъемки и создания фотоподарков.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Меню</h3>
+                    <ul>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#pricing">Цены</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Услуги</h3>
+                    <ul>
+                        <li><a href="#">Фотопечать</a></li>
+                        <li><a href="#">Фотоальбомы</a></li>
+                        <li><a href="#">Фотосъемка</a></li>
+                        <li><a href="#">Ретушь</a></li>
+                        <li><a href="#">Фотоподарки</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Фотографическая, д. 15</li>
+                        <li><i class="fas fa-phone"></i> +7 (495) 123-45-67</li>
+                        <li><i class="fas fa-envelope"></i> info@proimage.ru</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ProImage. Все права защищены.</p>
+                <a href="#" class="privacy-policy">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="image-modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div class="modal-caption" id="modal-caption"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
